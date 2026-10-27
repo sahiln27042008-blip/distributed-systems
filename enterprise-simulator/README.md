@@ -2,6 +2,8 @@
 
 Standalone deterministic simulator for a refund workflow, M6 enterprise queue/worker/resource scenarios, and M7 Enterprise Chaos Lab. All infrastructure is simulated.
 
+**Development note:** This simulator predates its addition to the `distributed-systems` repository. The repository commit date marks when it was imported, not when it was originally developed; original project files are dated October 12, 2026 and later.
+
 **Everything is simulated.** The virtual clock, mock services, and in-memory SQLite do not measure real infrastructure. The app, demo, and default tests need no credentials, paid APIs, or cloud services. Dependency installation may contact the npm registry; after installation, the simulator itself makes no external network requests. Server tests verify that test traffic stays on loopback.
 
 ## Requirements
